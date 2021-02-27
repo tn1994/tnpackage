@@ -9,3 +9,7 @@ print(file.is_none('archive/cp'))
 # join_and_cp()
 df = get_tmp_df()
 print(df.to_markdown())
+
+from sklearn_session.tsne import hoge
+
+hoge()
