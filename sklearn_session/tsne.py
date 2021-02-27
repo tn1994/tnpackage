@@ -14,6 +14,7 @@ digits = digits / 255
 
 
 def hoge():
+    """ref:https://blog.imind.jp/entry/2019/06/25/004531"""
     digits2d = TSNE(n_components=2).fit_transform(digits)
     f, ax = plt.subplots(1, 1, figsize=(10, 10))
     for i in range(10):
