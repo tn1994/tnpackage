@@ -2,11 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_openml
 from sklearn.manifold import TSNE
+import sklearn.datasets
 import datetime
 
-import sklearn.datasets
-
-timestamp= datetime.datetime.now()
+"""ref:https://qiita.com/t-iguchi/items/a0bb8a5f273b319e5755"""
+timestamp = datetime.datetime.now()
 timestamp = timestamp.strftime('%Y_%m_%d_%H_%M_%S')
 
 digits, label = sklearn.datasets.load_digits(return_X_y=True)
